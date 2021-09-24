@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: whitesmoke !important;
+}
+.navbar
+{
+    background: rgb(92,172,151);
+    background: linear-gradient(90deg, rgb(95, 170, 150) 10%, rgb(187, 120, 207) 60%);
+}
+.container .navbar-brand
+{
+    font-size: 30px;
+    font-family: 'Carattere', cursive;
+}
+ul .nav-item
+{
+    font-size: 18px;
+    margin: auto 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.nav-link:hover
+{
+   color: black !important;
+   border-bottom: 1px solid black;
+   padding: 0;
+}
+.display-banner
+{
+    background-image: url(Images/home.png);
+    margin-top: 50px;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding: 0;
+}  
+.about-us
+{
+    width: 1000px;
+    height: 550px;
+    margin: 100px auto;
+}
+.about-us-2
+{
+    background-image: url(Images/leaping-breakdancer.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.about-us h1
+{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    width: 150px;
+}
+.dance-studio
+{
+    color: black;
+    font-size: 90px;
+    font-weight: 900;
+}
+.dance-studio span
+{
+    color: rgb(187, 120, 207);
+}
+.para-text
+{
+    color: rgb(104, 103, 103);
+    width: 250px;
+}
+.class1,.class2,.class3
+{
+    width: 1000px;
+    height: 650px;
+    margin: 100px auto;
+}
+.class1-img
+{
+    background-image: url(Images/bhangra.png);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.class2-img
+{
+    background-image: url(Images/freestyle.png);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.class3-img
+{
+    background-image: url(Images/kathak.png);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.class1-info h1,.class2-info h1,.class3-info h1
+{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 15px;
+}
+.class1-info h1 span,.class2-info h1 span,.class3-info h1 span{
+    color: rgb(187, 120, 207);
+    font-size: 90px;
+    font-weight: 900;
+}
+.class1-info p,.class2-info p,.class3-info p
+{
+    color: rgb(104, 103, 103);
+    width: 250px;  
+    margin: 50px 15px; 
+}
+.timings
+{
+    margin: 50px 15px;
+}
+.timings span
+{
+    color:purple;
+}
+.trainer-container
+{
+    margin: 20px auto;
+    width: 1000px;
+}
+.card
+{
+    margin: 20px auto;
+    width: 30rem;
+}
+.trainer-container h1{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    width: 195px;
+    margin: 10px auto;
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){ 
+    .about-us{
+        width: 700px;
+    }
+    .class1,.class2,.class3{
+        width: 700px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: white !important;
+    }
+    .display-banner{
+        width: 100%;
+      height: 400px;
+    }
+    .container .navbar-brand
+    {
+        font-size: 20px;
+    }
+    .about-us
+    {
+        width: 100%;
+        height: 550px;
+        margin: 50px auto;
+    }
+    .about-us-1
+    {
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Images/leaping-breakdancer.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    .dance-studio
+    {   
+    color: black;
+    font-size: 70px;
+    font-weight: 900;
+    }
+    .about-us-2
+    {
+        display: none;
+    }
+    .about-us h1
+    {
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    width: 130px;
+    }
+    .class1,.class2,.class3
+    {
+        width: 100%;
+        height: 650px;
+        margin: 50px auto;
+    }
+    .class1-img,.class2-img,.class3-img
+    {
+        display: none;
+    }
+    .class1-info
+    {
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Images/bhangra.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    .class2-info
+    {
+        
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Images/freestyle.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    .class3-info
+    {
+        
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Images/kathak.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    .class1-info h1,.class2-info h1
+    {
+    margin: 0%;
+    }
+    .card
+    {
+    margin: 20px auto;
+    width: 17rem;
+    }
+  }
+  .contact-form-1
+  {
+      background-color: white;
+      margin: 0;
+  }
+  #success-message {
+    opacity: 0;
+  }
+  
+  .col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+    padding: 0 20% 0 20%;
+  }
+  
+  .margin-top-25 {
+    margin-top: 25px;
+  }
+  
+  .form-title {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  .form-group .form-control {
+    -webkit-box-shadow: none;
+    border-bottom: 1px;
+    border-style: none none solid none;
+    border-radius:0; 
+    border-color: #000;
+  }
+  
+  .form-group .form-control:focus {
+      box-shadow: none;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+    
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .btn-mod.btn-large {
+      height: auto;
+      padding: 13px 52px;
+      font-size: 15px;
+  }
+  
+  .btn-mod.btn-border {
+      color: #000000;
+      border: 1px solid #000000;
+      background: transparent;
+  }
+  
+  .btn-mod, a.btn-mod {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 4px 13px;
+      color: #fff;
+      background: rgba(34,34,34, .9);
+      border: 1px solid transparent;
+      font-size: 11px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  }
+  
+  .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+      color: #fff;
+      border-color: #000;
+      background: #000;
+      outline: none;
+  }
+  
+  @media only screen and (max-width: 500px) {
+      .btn-mod.btn-large {
+         padding: 6px 16px;
+         font-size: 11px;
+      }
+    
+      .form-title {
+          font-size: 20px;
+    }
+  }
+  .hover-fx {
+    font-size: 36px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    line-height: 84px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  }
+  
+  .hover-fx:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+  }
+  
+  .hover-fx:hover {
+    background-color: #fff;
+    color: purple;
+  }
+  
+  .hover-fx:hover:after {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  footer
+  {
+      background-color: black;
+  }
+  container {
+    background: #f9f9f9;
+}
+.row > div {
+    padding: 0 0px !important;
+}
+
+img {
+  margin-top: 0px;
+  vertical-align: middle;
+
+}
